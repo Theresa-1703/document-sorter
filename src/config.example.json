@@ -3,18 +3,18 @@
   "default_dir": "C:/Users/USERNAME/Desktop/Rechnungen/Unsortiert",
   "rules": [
     {
-      "name": "Anbieter_A",
-      "target": "C:/Users/USERNAME/Desktop/Rechnungen/Anbieter_A",
+      "name": "A",
+      "target": "C:/Users/USERNAME/Desktop/Rechnungen/Kunde_A",
       "patterns": [
-        "anbieter[- ]?a",
-        "DE\\d{2}\\s?1234\\s?5678\\s?\\d{4}\\s?\\d{4}\\s?\\d{2}"
+        "kunde[- ]?a",
+        "IBAN: DE\\d{2}\\s?1234\\s?5678\\s?\\d{4}\\s?\\d{4}\\s?\\d{2}"
       ]
     },
     {
-      "name": "Anbieter_B",
-      "target": "C:/Users/USERNAME/Desktop/Rechnungen/Anbieter_B",
+      "name": "B",
+      "target": "C:/Users/USERNAME/Desktop/Rechnungen/Kunde_B",
       "patterns": [
-        "\\banbieter_b\\b",
+        "kunde[- ]?b",
         "Steuernummer:\\s?123/456/789"
       ]
     }
