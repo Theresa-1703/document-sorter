@@ -40,7 +40,7 @@ graph TD
     C -- Ja --> D[Verschiebe PDF in passenden Zielordner]
     C -- Nein --> E[Verschiebe PDF in Ordner 'Unsortiert']
     
-    D --> F([Zielordner z.B. /A oder /B])
+    D --> F([Zielordner: /Kunde_A oder /Kunde_B])
     E --> G([Fallback-Ordner: /Unsortiert])
     
     %% Klassen zuweisen
